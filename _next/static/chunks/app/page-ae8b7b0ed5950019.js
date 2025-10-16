@@ -41,7 +41,7 @@
                   className: "flex flex-wrap items-center gap-3",
                   children: [
                     (0, i.jsx)(d(), {
-                      href: "https://x.com/mattstrategy_",
+                      href: "https://x.com/mattstroneth",
                       className: "hover:underline underline-offset-4",
                       children: "X",
                     }),
