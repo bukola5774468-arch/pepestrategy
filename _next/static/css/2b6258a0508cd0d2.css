@@ -1102,15 +1102,29 @@
   }
 }
 :root {
-  --background: #15803d;
-  --foreground: #fff;
-  --accent: #15803d;
+  --background: #81ac1e;
+  --foreground: #ad3232;
+  --accent: #be2721;
+  body {
+    background-image: url('/32.jpg');
+    background-size: cover;       /* or contain */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevent tiling */
+    background-attachment: fixed; /* optional: for a parallax effect */
+  }
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #15803d;
     --foreground: #fff;
     --accent: #15803d;
+  }
+
+  body {
+    background-image: url('/32.jpg');
+    background-size: cover;       /* or contain */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevent tiling */
+    background-attachment: fixed; /* optional: for a parallax effect */
   }
 }
 body {

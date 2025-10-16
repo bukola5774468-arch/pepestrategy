@@ -615,7 +615,7 @@
         null != (a = globalThis.__WAGMI_CONFIG__)
           ? a
           : (0, i.Y8)({
-              appName: "Pepe Strategy",
+              appName: "MATT Strategy",
               projectId:
                 B.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID ||
                 "9a5f69e42a0322a895df273755042037",
