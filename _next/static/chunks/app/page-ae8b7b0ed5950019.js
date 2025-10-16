@@ -27,7 +27,8 @@
                   className: "space-y-1",
                   children: [
                     (0, i.jsx)("div", {
-                      className: "text-base font-semibold",
+                      className: "font-semibold rainbow-text",
+                      style: {background: "linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #eeff41, #f9a825, #ff5722)"},
                       children: "MATT Strategy",
                     }),
                     (0, i.jsx)("div", {
@@ -302,7 +303,8 @@
                           }),
                           (0, i.jsx)("h2", {
                             className:
-                              "mt-3 text-2xl sm:text-3xl font-semibold tracking-tight",
+                              "rainbow-text mt-3 text-2xl sm:text-3xl font-semibold tracking-tight",
+                            style: {background: "linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #eeff41, #f9a825, #ff5722)"},
                             children: "MATT Strategy is currently holding",
                           }),
                           (0, i.jsxs)("div", {
@@ -311,7 +313,7 @@
                             children: [
                               (0, i.jsx)("div", {
                                 className:
-                                  "rounded-xl border border-white/25 bg-white/10 p-5 transition hover:bg-white/15",
+                                  "rounded-xl border border-white/25 bg-white/10 p-5 transition hover:bg-white/15 text-white",
                                 children: (0, i.jsxs)("div", {
                                   className: "flex items-center gap-4",
                                   children: [
@@ -401,7 +403,8 @@
                           className: "flex items-center justify-between gap-4",
                           children: [
                             (0, i.jsx)("h2", {
-                              className: "text-lg font-medium",
+                              className: "rainbow-text text-lg font-medium",
+                              style: {background: "linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #eeff41, #f9a825, #ff5722)"},
                               children: "Progress to Next Purchase",
                             }),
                             (0, i.jsxs)("div", {
@@ -497,7 +500,8 @@
                         className: "flex items-center justify-between gap-3",
                         children: [
                           (0, i.jsx)("h3", {
-                            className: "text-lg font-medium",
+                            className: "rainbow-text text-lg font-medium",
+                            style: {background: "linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #eeff41, #f9a825, #ff5722)"},
                             children: "Orders",
                           }),
                           (0, i.jsxs)("div", {
@@ -786,12 +790,13 @@
                           "px-5 pt-5 pb-3 flex items-center justify-between",
                         children: [
                           (0, i.jsx)("h3", {
-                            className: "text-lg font-medium",
+                            className: "rainbow-text text-lg font-medium",
+                            style: {background: "linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #eeff41, #f9a825, #ff5722)"},
                             children: "MATTSTR Chart",
                           }),
                           (0, i.jsx)("span", {
                             className: "text-xs text-white/60",
-                            children: "Powered by GeckoTerminal",
+                            children: "Powered by DEXSCREENER",
                           }),
                         ],
                       }),
@@ -802,7 +807,7 @@
                           width: "100%",
                           id: "geckoterminal-embed",
                           title: "GeckoTerminal Embed",
-                          src: "https://www.geckoterminal.com/eth/pools/0xcomingsoon?embed=1&info=1&swaps=1&grayscale=0&light_chart=0&chart_type=price&resolution=15m",
+                          src: "https://dexscreener.com/ethereum/0xcomingsoon",
                           frameBorder: 0,
                           allow: "clipboard-write",
                           allowFullScreen: !0,
