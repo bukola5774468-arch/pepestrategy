@@ -201,6 +201,7 @@
             children: [
               (0, i.jsxs)("video", {
                 src: "/generated_video.mp4",
+                poster: "/poster.png",
                 autoPlay: !0,
                 loop: !0,
                 muted: !0,
