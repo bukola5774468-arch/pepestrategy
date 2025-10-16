@@ -39,12 +39,12 @@
                   className: "flex flex-wrap items-center gap-3",
                   children: [
                     (0, i.jsx)(d(), {
-                      href: "https://x.com/PepeStrategy_",
+                      href: "https://x.com/_pepestrategy",
                       className: "hover:underline underline-offset-4",
                       children: "X",
                     }),
                     (0, i.jsx)(d(), {
-                      href: "https://t.me/PepeStrategyeth",
+                      href: "https://t.me/pepestrategyone",
                       className: "hover:underline underline-offset-4",
                       children: "Telegram",
                     }),
@@ -71,7 +71,7 @@
       async function f() {
         try {
           let e = "https://1rpc.io/eth",
-            t = "0xa89F4ca08f729364F0e1CE657C4b6D5EA60E1f91";
+            t = "0xcomingsoon";
           if (!e || !t) return null;
           let s = new x.FR(e),
             i = new m.NZ(t, p, s),
@@ -163,7 +163,7 @@
           m = Math.max(0, 5.01 - x),
           u = Math.max(0, Math.min(100, (x / 5.01) * 100)),
           [p, v] = (0, a.useState)(null),
-          E = "0xa89F4ca08f729364F0e1CE657C4b6D5EA60E1f91",
+          E = "0xcomingsoon",
           { isConnected: F } = (0, g.F)(),
           { data: P, writeContract: S, isPending: k } = (0, b.x)(),
           { isLoading: T, isSuccess: C } = (0, w.g)({ hash: P }),
@@ -236,7 +236,7 @@
                         (0, i.jsx)("a", {
                           className:
                             "px-4 py-2 rounded-md border border-foreground/15 hover:bg-accent/10 text-sm text-white",
-                          href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xa89f4ca08f729364f0e1ce657c4b6d5ea60e1f91",
+                          href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xcomingsoon",
                           children: "Trade PEPESTR",
                         }),
                         (0, i.jsx)(o.pK, {}),
@@ -250,7 +250,7 @@
                   children: [
                     (0, i.jsx)("a", {
                       href: "https://etherscan.io/address/".concat(
-                        "0xa89F4ca08f729364F0e1CE657C4b6D5EA60E1f91"
+                        "0xcomingsoon"
                       ),
                       target: "_blank",
                       rel: "noopener noreferrer",
@@ -788,7 +788,7 @@
                         width: "100%",
                         id: "geckoterminal-embed",
                         title: "GeckoTerminal Embed",
-                        src: "https://www.geckoterminal.com/eth/pools/0xa72fecc67208490fbf0eaf851ceea6e174a3fe6f?embed=1&info=1&swaps=1&grayscale=0&light_chart=0&chart_type=price&resolution=15m",
+                        src: "https://www.geckoterminal.com/eth/pools/0xcomingsoon?embed=1&info=1&swaps=1&grayscale=0&light_chart=0&chart_type=price&resolution=15m",
                         frameBorder: 0,
                         allow: "clipboard-write",
                         allowFullScreen: !0,
@@ -813,7 +813,7 @@
             s &&
               l &&
               n({
-                address: "0xa89F4ca08f729364F0e1CE657C4b6D5EA60E1f91",
+                address: "0xcomingsoon",
                 abi: j,
                 functionName: "sellPepe",
                 args: [BigInt(t)],
